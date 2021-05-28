@@ -56,7 +56,7 @@ const MetaTag = () => {
 
   // ==========================================================================
 
-  return <i></i>;
+  return null;
 };
 
 export const MetaProvider = ({ children }) => {

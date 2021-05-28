@@ -1,7 +1,7 @@
 import React from "react";
 import { useMetaService } from "../providers/MetaProvider";
 
-const Auth = () => {
+export const Auth = () => {
   const { auth } = useMetaService();
 
   return (
@@ -12,5 +12,3 @@ const Auth = () => {
     </div>
   );
 };
-
-export default Auth;
