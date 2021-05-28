@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useMetaService } from "../providers/MetaProvider";
 
-const Banking = () => {
+export const Banking = () => {
   const { banking } = useMetaService();
   const [amount, setAmount] = useState("");
   const amountFieldRef = useRef();
@@ -64,5 +64,3 @@ const Banking = () => {
     </div>
   );
 };
-
-export default Banking;

@@ -1,7 +1,7 @@
 import React from "react";
 import { useMetaService } from "../providers/MetaProvider";
 
-const Balance = () => {
+export const Balance = () => {
   const { banking } = useMetaService();
 
   return (
@@ -10,5 +10,3 @@ const Balance = () => {
     </div>
   );
 };
-
-export default Balance;
